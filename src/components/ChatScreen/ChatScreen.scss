@@ -1,0 +1,13 @@
+.chat-screen {
+  width: 85%;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &__is-typing {
+    font-size: .7em;
+    text-align: left;
+  }
+}

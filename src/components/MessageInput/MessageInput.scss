@@ -1,0 +1,7 @@
+.message-input {
+  display: flex;
+  justify-content: space-between;  
+  &__textfield {
+    width: 80%;
+  }
+}

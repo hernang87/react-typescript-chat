@@ -1,0 +1,39 @@
+.single-message {
+  width: 85%;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: .2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 5px;
+  background: #FFF;
+  margin-bottom: 10px;
+
+  &--mine {
+    align-self: flex-end;
+    background:#c8e6c9;
+  }
+
+  &__main {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+    svg {
+      font-size: 1em;
+    }
+  }
+
+  &__metadata {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: .5rem;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: .8em;
+  }
+}
